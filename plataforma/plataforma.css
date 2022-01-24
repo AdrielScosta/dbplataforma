@@ -1,0 +1,50 @@
+*{
+    
+    padding: 0px;
+    margin: 0px;
+}
+
+.topo ul{
+    list-style-type: none;
+}
+
+.topo ul{
+    position: relative;
+    background-color: black;
+    height: 60px;
+    
+}
+
+.topo li{
+    display: inline;
+    
+    
+}
+
+.topo li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.db {
+    font-size: 30pt;
+    margin-left: 30px;
+}
+
+.db a:hover{
+    color: rgb(190, 190, 190);
+}
+
+.gl{
+    font-size: 20px;
+}
+
+.gl a:hover{
+    color: rgb(190, 190, 190);
+}
+
+h1{
+    margin: 300px;
+    margin-left: 615px;
+}
