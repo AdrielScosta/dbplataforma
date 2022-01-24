@@ -1,0 +1,149 @@
+body{
+    background-color: #f7f7f7
+}
+
+h1 {
+    font-size: 20pt;
+    margin-left: 600px;
+}
+
+
+
+
+fieldset{
+    border: 0;
+    
+}
+
+input, textarea, button{
+    border-radius: 3px;
+    
+}
+
+.campo{
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    margin-top: 30px;
+    margin-left: 30.9%;
+    margin-right: 1em;
+}
+
+.campo input, .campo textarea{
+    padding: 0.3em;
+    border: 1px solid #000000;
+    display: block;
+}
+
+.campo input{
+    width: 35em;
+}
+
+.campo textarea{
+    width: 35em;
+}
+
+.campo input:focus, .campo textarea:focus{
+    background: #E0E0F8;
+
+}
+
+.botao{
+    margin-left: 48.6%;
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 00.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    margin-top: 5px;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 25em;
+}
+
+.botao:hover{
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+div ul p{
+    margin-top: 50px;
+}
+
+.logobaixo ul{
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+.baixo{
+    height: 100px;
+    margin: 30px;
+}
+
+.logobaixo ul p{
+    margin: 28px;
+    
+}
+
+.imginicio{
+    border: 10px solid white;
+    box-shadow: -5px 5px 5px rgb(110, 108, 108);
+}
+
+.icon{
+    height: 25px;
+    padding: 4px;
+    
+}
+
+*{
+    
+    padding: 0px;
+    margin: 0px;
+}
+
+.topo ul{
+    list-style-type: none;
+}
+
+.topo ul{
+    position: relative;
+    background-color: black;
+    
+}
+
+.topo li{
+    display: inline;
+    
+    
+}
+
+.topo li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.db {
+    font-size: 30pt;
+    margin-left: 30px;
+}
+
+.gl{
+    font-size: 20px;
+}
+

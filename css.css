@@ -1,0 +1,112 @@
+:root{
+    --cor-fundo : rgb(8, 1, 19);
+    --cor-hover : rgb(224, 209, 209);
+    --cor-primaria : #fff;
+}
+*{
+padding: 0px;
+margin: 0px;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+.dp-menu ul{
+     list-style-type: none;
+}
+
+.dp-menu ul{
+    background-color: var(--cor-fundo);
+    position: relative;
+    padding: 5px;
+    margin-top: -4px;
+    
+}
+
+.dp-menu ul li{
+    display:inline;
+}
+
+.dp-menu ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    margin-left: 230px;
+    font-family: 'Fjalla One', sans-serif;
+    
+    
+}
+
+.dp-menu ul li a:hover{
+    color: rgb(190, 190, 190);
+    
+}
+
+.dp-menu ul ul{
+    display: none;
+    position: absolute;
+    width: 150px;
+    margin-left: 180px;
+
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+
+}
+
+.dp-menu ul ul li{
+    display: block;
+    margin-left: -190px;
+    font-size: 13pt;
+    margin-top: 10px;
+}
+
+div h1{
+    margin-left: 620px;
+    margin-top: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+div p{
+    margin-left: 260px;
+    margin-right: 200px;
+    margin-top: 30px;
+    font-family: 'Arvo', serif;
+}
+
+.teste {
+    display: none;
+    margin-left: 60px;
+}
+
+.teste2{
+    margin-left: 400px;
+    list-style-type: none;
+}
+
+.logobaixo ul{
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+.baixo{
+    height: 100px;
+    margin: 30px;
+}
+
+.logobaixo ul p{
+    margin: 28px;
+    
+}
+
+.imginicio{
+    box-shadow: -5px 5px 5px rgb(110, 108, 108);
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.icon{
+    height: 20px;
+}

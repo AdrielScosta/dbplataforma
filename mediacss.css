@@ -1,0 +1,49 @@
+
+@media screen and (max-width: 375px){
+    body{
+        background-color: #F7F7F7;
+    }
+    div h1, p{
+        margin-left: 170px;
+    }
+
+.teste{
+    display: block;
+}
+
+.teste2 {
+    display: none;
+}
+
+.dp-menu ul li a{
+    margin: -15px;
+    margin-left: 50px;
+}
+
+div h1{
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+div p{
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    width: 300px;
+}
+
+.imginicio{
+    margin-left: 8px;
+    width: 350px;
+}
+
+.dp-menu ul ul{
+    margin-left: 30px;
+}
+.dp-menu ul ul li{
+    margin-left: -40px;
+}
+
+ }
