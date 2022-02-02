@@ -9,7 +9,7 @@ margin: 0px;
 }
 
 body{
-    background-color: #f7f7f7;
+    background-color: white;
 }
 
 .dp-menu ul{
@@ -19,20 +19,22 @@ body{
 .dp-menu ul{
     background-color: var(--cor-fundo);
     position: relative;
-    padding: 5px;
+    padding: 10px;
     margin-top: -4px;
+    box-shadow: -5px 5px 5px rgba(110, 108, 108, 0.4);
     
 }
 
 .dp-menu ul li{
-    display:inline;
+    display: inline;
 }
 
 .dp-menu ul li a{
     color: var(--cor-primaria);
     text-decoration: none;
-    margin-left: 230px;
+    margin-left: 220px;
     font-family: 'Fjalla One', sans-serif;
+    font-size: 15pt;
     
     
 }
@@ -47,11 +49,15 @@ body{
     position: absolute;
     width: 150px;
     margin-left: 180px;
+    
+    
 
 }
 
 .dp-menu ul li:hover ul{
     display: block;
+    
+    
 
 }
 
@@ -60,6 +66,7 @@ body{
     margin-left: -190px;
     font-size: 13pt;
     margin-top: 10px;
+    
 }
 
 div h1{
@@ -81,32 +88,84 @@ div p{
 }
 
 .teste2{
-    margin-left: 400px;
+    margin-left: 200px;
     list-style-type: none;
+    
+}
+
+.backtopo ul{
+    background-color: white;
+    height: 300px;
+    box-shadow: -5px 5px 5px rgba(110, 108, 108, 0.4);
 }
 
 .logobaixo ul{
     background-color: white;
-    margin-top: 20px;
+    margin-top: 40px;
+    display: flex;
+    box-shadow: 0px -5px 10px rgba(110, 108, 108, 0.4);
+
     
 }
 
 .baixo{
-    height: 100px;
+    height: 200px;
     margin: 30px;
 }
 
 .logobaixo ul p{
     margin: 28px;
-    
+    display: inline;
+    margin-top: 60px;
+    margin-left: 100px;
 }
 
 .imginicio{
-    box-shadow: -5px 5px 5px rgb(110, 108, 108);
+    box-shadow: 0px 0px 5px rgb(110, 108, 108);
     margin-left: 400px;
     margin-top: 20px;
 }
 
 .icon{
     height: 20px;
+    margin-left: -23px;
 }
+
+.yt{
+    margin-left: 5px;
+}
+
+.teste1{
+    display:flex;
+}
+
+.icontopo{
+    margin-top: 0px;
+    margin-left: 90px;
+}
+
+.icontopo img{
+    padding-top: 40px;
+}
+
+.local{
+    margin-top: 8px;
+    margin-left: -260px;
+}
+
+.copy{
+    background: rgb(224, 224, 224);
+    height: 0px;
+    margin-top: -28px;
+    color: black;
+    font-size: 10pt;
+    text-align:center;
+    
+}
+
+.copy li{
+    background-color: rgb(214, 214, 214);
+    
+    
+}
+

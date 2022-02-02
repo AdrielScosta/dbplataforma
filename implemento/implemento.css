@@ -1,0 +1,7 @@
+.img{
+    width: 240px;
+    height: 250px;
+    flex-grow: 1;
+    transition: transform .2s linear;
+    text-decoration: none;
+}

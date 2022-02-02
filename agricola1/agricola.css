@@ -1,0 +1,99 @@
+*{
+    
+    padding: 0px;
+    margin: 0px;
+}
+
+.topo ul{
+    list-style-type: none;
+}
+
+.topo{
+    position: relative;
+    background-color: black;
+    height: 70px;
+    align-items: center;
+    
+}
+
+.topo li{
+    display: inline;
+    
+    
+}
+
+
+.topo li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.db {
+    font-size: 30pt;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gl{
+    font-size: 20px;
+}
+
+h1{
+    margin: 20px;
+    margin-left: 530px;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+.img{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5vw;
+    padding: 0 1vw;
+    margin-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.imgback:hover{
+    transform: scale(1.05);
+}
+
+.back{
+    background-color: red;
+    width: 1240px;
+    margin-left: 55px;
+    border-radius: 10px;
+}
+
+.back h1{
+    margin-left: 461px;
+}
+
+.imgback{
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 500px;
+}
+
+.tst{
+    width: 340px;
+    height: 350px;
+    flex-grow: 1;
+    transition: transform .2s linear;
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 10px;
+}
+
+.img p{
+    text-decoration: none;
+}

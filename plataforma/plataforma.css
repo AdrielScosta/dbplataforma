@@ -8,12 +8,13 @@
     list-style-type: none;
 }
 
-.topo ul{
+.topo{
     position: relative;
     background-color: black;
     height: 60px;
     
 }
+
 
 .topo li{
     display: inline;
@@ -24,12 +25,14 @@
 .topo li a{
     color: white;
     text-decoration: none;
+    margin-top: 20px;
     
 }
 
 .db {
     font-size: 30pt;
     margin-left: 30px;
+    margin-top: 100px;
 }
 
 .db a:hover{
@@ -42,9 +45,50 @@
 
 .gl a:hover{
     color: rgb(190, 190, 190);
+    
+}
+
+.back{
+    background-color: red;
+    width: 1200px;
+    margin-left: 95px;
 }
 
 h1{
-    margin: 300px;
-    margin-left: 615px;
+    
+    margin: 30px;
+    margin-left: 550px;
+}
+
+.backimg{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+    display: flex;  
+    
+    
+}
+
+.backimg p{
+    margin-left: 125px;
+    margin-top: 5px;
+}
+
+.backimg p2{
+    margin-left: 100px;
+    
+}
+
+.tst1{
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 267px;
+    box-shadow: 0px 0px 10px rgba(110, 108, 108, 1);
+    border-radius: 10px;
+    
+}
+
+
+.tst1:hover{
+    transform: scale(1.05);
 }

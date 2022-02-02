@@ -1,0 +1,161 @@
+@media screen and (max-width: 768px) and (min-width: 376px){
+
+.teste2{
+    margin-left: 10px;
+}    
+
+.icontopo{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.icontopo img{
+    padding-top: 40px;
+}
+
+.local{
+    margin-top: -20px;
+    margin-left: -60px;
+    width: 470px;
+    height: 160px;
+    
+}
+
+.local p{
+    margin-left: 10px;
+    margin: 10%;
+    width: 420px;
+}
+
+.dp-menu ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    margin-left: 100px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15pt;
+    
+}
+
+.dp-menu ul ul{
+    margin-left: 80px;
+}
+  
+.dp-menu ul ul li{
+    margin-left: -90px;
+}
+
+div h1{
+    margin-left: 310px;
+}
+
+div p{
+    margin-left: 100px;
+    width: 600px;
+}
+
+.imginicio{
+    margin-left: 100px;
+    width: 600px;
+}
+  
+.baixo{
+    width: 250px;
+    height: 150px;
+    margin-top: 50px;
+}
+  
+}
+
+@media screen and (max-width: 375px){
+
+.teste2{
+            margin-left: 180px;
+        }    
+        
+.icontopo{
+            margin-top: 0px;
+            margin-left: 20px;
+            display: none;
+        }
+        
+.icontopo img{
+            padding-top: 40px;
+            display: none;
+        }
+        
+.local{
+            margin-top: -20px;
+            margin-left: -60px;
+            width: 470px;
+            height: 160px;
+            display: none;
+            
+        }
+        
+.local p{
+            margin-left: 10px;
+            margin: 10%;
+            width: 420px;
+            display: none;
+        }
+        
+.dp-menu ul{
+    width: 690px;
+}
+
+.dp-menu ul li a{
+            color: var(--cor-primaria);
+            text-decoration: none;
+            margin-left: 90px;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 15pt;
+            
+        }
+        
+        .dp-menu ul ul{
+            margin-left: 80px;
+        }
+          
+        .dp-menu ul ul li{
+            margin-left: -90px;
+        }
+        
+        div h1{
+            margin-left: 270px;
+            width: 200px;
+        }
+        
+        div p{
+            margin-left: 50px;
+            width: 600px;
+        }
+        
+        .imginicio{
+            margin-left: 50px;
+            width: 600px;
+        }
+          
+        .baixo{
+            width: 250px;
+            height: 150px;
+            margin-top: 50px;
+        }
+          
+        .copy{
+            background: rgb(224, 224, 224);
+            height: 0px;
+            margin-top: -28px;
+            color: black;
+            font-size: 13pt;
+            text-align:center;
+            width: 700px;
+            
+        }
+        
+        .copy li{
+            background-color: rgb(214, 214, 214);
+            
+            
+        }        
+
+}
